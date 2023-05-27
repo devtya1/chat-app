@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="chat.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <title>Chat</title>
+</head>
+<body onload="load_chats();">
+    <center>
+    <div class="header">
+        <img style="float: left; height: 40px; width: 40px;" src="chat-logo-design_93835-108.avif">
+    </div>
+    <br><br>
+    <div id="main_people" class="col-lg-4 main">
+        
+    </div>
+    <div class="col-lg-8 main main_chat">
+
+    </div>
+    </center>
+    <script src="chat.js"></script>
+</body>
+</html>

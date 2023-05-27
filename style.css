@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to right, #27a197 30%, #0066ff);
+}
+
+.div{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 100%;
+    width:40%;
+}
+
+.heading{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.head{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.inp{
+    height: 50px;
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#side-by-side{
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.child{
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 220px;
+}
+
+.txt{
+    margin-top: 8px;
+}

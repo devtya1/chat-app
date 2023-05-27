@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Msg App</title>
+</head>
+<body>
+    <center>
+        <h1 class="heading"><b style="color: black;">CHATARC</b></h1>
+        <div class="div">
+            <br>
+            <h4 class="head">Sign in</h4>
+            <br>
+            <label style="color: grey; font-weight: 100;">Sign in with your username and password</label>
+            <br><br>
+            <label style="margin-right: 380px; color: white;">Your Username</label>
+            <input id="name" class="inp" placeholder="Enter Username">
+            <br><br><br>
+            <label style="margin-right: 380px; color: white;">Your Password</label>
+            <input id="pass" class="inp" placeholder="Enter Password">
+            <br><br>
+            <div id="side-by-side">
+                    <input class="child radio" type="checkbox">
+                    <label class="child txt">Remember me</label>
+                    <a style="margin-top: 20px;">Forgot Password?</a>
+            </div>
+            <button id="btn" onclick="login();" style="background-color: black; color: white;" class="inp">Login</button><br>
+            <div style="height: 50px;" class="empty">
+            </div>
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
